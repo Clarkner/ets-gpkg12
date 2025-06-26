@@ -1,17 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <parent>
-    <groupId>org.opengis.cite</groupId>
-    <artifactId>ets-common</artifactId>
-    <version>14</version>
+    <groupId>org.dgiwg</groupId>
+    <artifactId>ets-gpkg-dgiwg</artifactId>
+    <version>1.1</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>ets-gpkg12</artifactId>
+  <artifactId>ets-gpkg-dgiwg</artifactId>
   <version>1.4-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>GeoPackage 1.2 Conformance Test Suite</name>
-  <description>This test suite checks GeoPackage 1.2 files for standards conformance.</description>
+  <name>DGIWG GeoPackage Test Suite</name>
+  <description>This test suite checks DGIWG GeoPackage v1.4 files for standards conformance.</description>
   <url>https://opengeospatial.github.io/ets-gpkg12/</url>
   <licenses>
     <license>
@@ -48,8 +48,8 @@
   </developers>
 
   <properties>
-    <ets-code>gpkg12</ets-code>
-    <spec-version>1.2</spec-version>
+    <ets-code>gpkg-dgiwg</ets-code>
+    <spec-version>1.4</spec-version>
     <soapui.teamengine.endpoint>http://localhost:8081/teamengine</soapui.teamengine.endpoint>
     <soapui.teamengine.user>ogctest</soapui.teamengine.user>
     <soapui.teamengine.password>ogctest</soapui.teamengine.password>
