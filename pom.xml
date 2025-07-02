@@ -48,22 +48,12 @@
     <dependency>
       <groupId>org.opengis.cite.teamengine</groupId>
       <artifactId>teamengine-spi</artifactId>
-      <version>1.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.opengis.cite.teamengine</groupId>
-      <artifactId>teamengine-spi</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.opengis.cite.teamengine</groupId>
       <artifactId>teamengine-spi-ctl</artifactId>
       <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.opengis.cite</groupId>
-      <artifactId>geomatics-geotk</artifactId>
-      <version>1.9</version>
     </dependency>
     <dependency>
       <groupId>org.opengis.cite</groupId>
@@ -78,7 +68,7 @@
     <dependency>
       <groupId>org.geotoolkit</groupId>
       <artifactId>geotk-referencing</artifactId>
-      <version>4.0</version>
+      <version>1.9</version>
     </dependency>
     <dependency>
       <groupId>org.testng</groupId>
@@ -89,21 +79,6 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.13.2</version>
-    </dependency>
-    <dependency>
-      <groupId>org.mockito</groupId>
-      <artifactId>mockito-core</artifactId>
-      <version>3.11.2</version>
-    </dependency>
-    <dependency>
-      <groupId>commons-io</groupId>
-      <artifactId>commons-io</artifactId>
-      <version>2.8.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>7.4.0</version>
     </dependency>
     <dependency>
       <groupId>org.opengis.cite.saxon</groupId>
@@ -120,11 +95,6 @@
           <artifactId>xml-apis</artifactId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>com.beust</groupId>
-      <artifactId>jcommander</artifactId>
-      <version>1.78</version>
     </dependency>
     <dependency>
       <groupId>commons-io</groupId>
@@ -176,7 +146,7 @@
           </descriptorRefs>
           <archive>
             <manifest>
-              <mainClass>org.opengis.cite.gpkg12.TestNGController</mainClass>
+              <mainClass>org.dgiwg.gpkg.TestNGController</mainClass>
             </manifest>
           </archive>
         </configuration>
